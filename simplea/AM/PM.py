@@ -6,7 +6,7 @@ import random
 import re
 import sys
 
-#def timeConversion(s):
+def timeConversion(s):
     if s.endswith('PM') and s[:2] != '12':
         s = str(int(s[:2]) + 12) + s[2:]
     elif s.endswith('AM') and s[:2] == '12':
@@ -18,10 +18,7 @@ import sys
 # The function accepts STRING s as parameter.
 #
 
-def timeConversion(s):
-    for x in s:
-        if s[]
-    
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
