@@ -20,7 +20,7 @@ def gradingStudents(grades):
         if grade < 38:
             result.append(grade)
         else:
-            next_multiple =  
+            next_multiple =  ((grade // 5) + 1) * 5
             if next_multiple - grade < 3:
                 result.append(next_multiple)
             else:
